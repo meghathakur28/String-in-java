@@ -1,0 +1,16 @@
+import java.util.*;
+//given a string s, print all the subset of s
+//input s= "abcd"
+//output= all the substring of s;
+public class Strings {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str=sc.nextLine();
+        for(int i=0;i<str.length();i++)
+        {
+            for(int j=i;j<str.length();j++) {
+                System.out.println(str.substring(i,j+1));
+            }
+        }
+    }
+}
