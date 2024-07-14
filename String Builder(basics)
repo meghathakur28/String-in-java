@@ -1,0 +1,17 @@
+import java.util.*;
+public class strings {
+    public static void main(String[] main)
+    {
+        StringBuilder str = new StringBuilder("Hello");
+        str.append(" Thakur");
+        System.out.println(str);
+        str.reverse();
+        System.out.println(str);
+        str.reverse();
+        System.out.println(str);
+        str.setCharAt(0, 'p');
+        System.out.println(str);
+
+
+    }  
+}
